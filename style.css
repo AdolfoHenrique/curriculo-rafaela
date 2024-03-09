@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+.cabecalho{
+    color: #fafafa;
+    background-color: #3d4d39;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    font-size: 3.13rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    color: #3d4d39;
+
+}
+h2{
+    color: #4F6F52 ;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3d4d39;
+}
+
+p{
+   text-align: justify; 
+   font-family: sans-serif;
+   color: #739072;
+}
+.p__2{
+    text-align: center ;
+}
+
+.curriculo{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    width: 40%;
+    border-top: 2px solid #3d4d39;
+    margin: 0 0 2%;
+    
+}
+.linha__2{
+    width: 20%;
+    border-top: 2px solid #3d4d39;
+    margin: 4% 0;
+}
+
+.curriculo__esquerda{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    align-items: center;
+    gap: 40px;
+    
+}
+.curriculo__esquerda__foto{
+    width: 40%;
+    display: flex;
+    border-radius: 30px;
+    
+}
+.curriculo__esquerda__informacoes{
+    border: solid #ECE3CE;
+    border-radius: 45px;
+    background-color: #ECE3CE;
+    padding: 20px;
+}
+.curriculo__esquerda__informacoes__paragrafo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 10px;
+
+}
+.curriculo__esquerda__botao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: 2px solid #3d4d39;
+    background-color: #3d4d39;
+    color: #ECE3CE;
+    padding: 5px;
+
+}
+
+.curriculo__direita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 1px;
+}
+.curriculo__direita__p{
+    margin-bottom: 8%;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.icone__imagens{
+    display: inline-block;
+    width: 25%;
+}
+
+.rodape{
+    color: #fafafa;
+    background-color: #3d4d39;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
